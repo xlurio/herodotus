@@ -9,9 +9,7 @@ readme = "README.md"
 license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
-
-[project.optional-dependencies]
-test = [
+dependencies = [
     "scrapy >=2.6.0, <2.7.0", 
     "sqlalchemy >=1.4.0, <1.5.0"
 ]
