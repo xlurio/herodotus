@@ -10,5 +10,11 @@ license = {file = "LICENSE"}
 classifiers = ["License :: OSI Approved :: MIT License"]
 dynamic = ["version", "description"]
 
+[project.optional-dependencies]
+test = [
+    "scrapy >=2.6.0, <2.7.0", 
+    "sqlalchemy >=1.4.0, <1.5.0"
+]
+
 [project.urls]
-Home = "https://github.com/xlurio"
+Home = "https://github.com/xlurio/herodotus"
