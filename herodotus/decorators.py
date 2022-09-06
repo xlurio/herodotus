@@ -1,16 +1,15 @@
 """The module reserved for the decorators available by the Herodotus package"""
 
-from typing import Callable
+from typing import Any, Callable, Dict, Iterator
 from sqlalchemy.orm import Session, registry
 from scrapy.http.response import Response
-from _collections_abc import list_iterator  # type: ignore
 
 
 def parse_for_db(
-    parse_method: Callable[[Response], list_iterator],  # type: ignore
+    parse_method: Callable[[Response], Iterator[registry]],
     response: Response,
     session: Session,
-):
+) -> Iterator[Dict[str, Any]]:
     """Decorator for Scrapy Spider parsing method for automatically storing data into
     the database
 
