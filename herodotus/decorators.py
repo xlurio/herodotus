@@ -22,3 +22,5 @@ def parse_for_db(
 
     for result in parse_method(response):
         session.add(result)  # type: ignore
+
+        yield vars(result)
