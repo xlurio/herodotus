@@ -5,7 +5,7 @@ name: Test
 
 on:
   push:
-    branches: [ "feat/*", "bugfix/*", "hotfix/*" ]
+    branches: [ "feat/*", "bugfix/*", "hotfix/*", "main" ]
   pull_request:
     branches: [ "main" ]
 
