@@ -14,7 +14,7 @@
 
 ## Overview
 
-Herodotus is a simple package for fastening the integration between Scrapy spiders and SQLAlchemy. It easily allows the data to be stored as soon as it gets scraped, providing a faster development for scraping tools.
+Herodotus is a simple package for fastening the integration between Scrapy spiders and SQLAlchemy. With a few lines, it easily allows the data to be stored as soon as it gets scraped, providing a faster development for scraping tools.
 
 
 ## Requirements
