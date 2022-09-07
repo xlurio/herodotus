@@ -1,4 +1,4 @@
-# herodotus
+# Herodotus
 
 ## Overview
 
