@@ -15,7 +15,7 @@ Herodotus is a simple package for fastening the integration between Scrapy spide
 ## Installation
 
 ```
-pip install herodotus
+$ pip install herodotus
 
 ---> 100%
 ```
