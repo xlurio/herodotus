@@ -9,7 +9,6 @@ from sqlalchemy import Table
 
 def parse_for_db(
     parse_method: Callable[[Selector, Optional[Any]], Generator[Any, None, None]],
-    response: Selector,
     session: Session,
     **kwargs: Optional[Any]
 ) -> Generator[Dict[str, Any], None, None]:
@@ -25,6 +24,8 @@ def parse_for_db(
     Yields:
         Iterator[Dict[str, Any]]: the stored objects iterator
     """
+    response = kwargs.pop("response")
+
     result: Table
 
     for result in parse_method(response, **kwargs):  # type: ignore

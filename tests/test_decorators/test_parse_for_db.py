@@ -47,7 +47,7 @@ class TestParseForDB:
     def _when_parsed(self, response: Selector, session: Session) -> None:
         spider = FakeSpider()
 
-        for _ in parse_for_db(spider.parse, response, session):  # type: ignore
+        for _ in parse_for_db(spider.parse, session=session, response=response):  # type: ignore
             print(_)
 
         session.commit()
