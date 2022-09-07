@@ -10,9 +10,6 @@
 <a href="https://pypi.org/project/herodotus" target="_blank">
     <img src="https://img.shields.io/pypi/v/herodotus?color=%2334D058&label=pypi%20package" alt="Package version">
 </a>
-<a href="https://pypi.org/project/herodotus" target="_blank">
-    <img src="https://img.shields.io/pypi/pyversions/herodotus.svg?color=%2334D058" alt="Supported Python versions">
-</a>
 </p>
 
 ## Overview
