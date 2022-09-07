@@ -40,4 +40,4 @@ jobs:
       env:
           FLIT_USERNAME: ${{ secrets.FLIT_USERNAME }}
           FLIT_PASSWORD: ${{ secrets.FLIT_PASSWORD }}
-      run: bash scripts/publish.sh
+      run: bash ./scripts/publish.sh
