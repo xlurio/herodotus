@@ -1,8 +1,8 @@
 # Herodotus
 
 <p align="center">
-<a href="https://github.com/xlurio/herodotus/actions/workflows/test.yml/badge.svg?event=pull_request&branch=main" target="_blank">
-    <img src="https://github.com/xlurio/herodotus/actions/workflows/test.yml/badge.svg?event=pull_request&branch=main" alt="Test">
+<a href="https://github.com/xlurio/herodotus/actions/workflows/test.yml" target="_blank">
+    <img src="https://github.com/xlurio/herodotus/actions/workflows/test.yml/badge.svg?branch=main" alt="Test">
 </a>
 <a href="https://codecov.io/gh/xlurio/herodotus" target="_blank">
     <img src="https://img.shields.io/codecov/c/github/xlurio/herodotus?color=%2334D058" alt="Coverage">
